@@ -27,7 +27,7 @@ fs.readdir("./commands/", (err, files) => {
     if(err) console.log(err);
     let jsfile = files.filter(f => f.split(".").pop() === "js")
     if(jsfile.length <= 0){
-      console.log("# No commands we're found!!!");
+      console.log("No commands we're found!!!");
       return;
     }
   
@@ -41,6 +41,8 @@ fs.readdir("./commands/", (err, files) => {
 client.on("disconnect", async () => console.log("Bot it's disconnecting..."))
   .on("error", async (err) => console.error(err))
   .on("warn", async (msg) => cosnole.warn(msg))
-  .on("reconnecting", async () => console.log("Bot it's reconnecting..."));
+  .on("reconnecting", async () => console.log("Bot it's reconnecting..."))
+  .on("guildCreate", async (guild) => await client.user.setActivity(`${client.guilds.size} servers | ${prefix}help`, { type: "WATCHING"}))
+  .on("guildDelete", async (guild) => await client.user.setActivity(`${client.guilds.size} servers | ${prefix}help`, { type: "WATCHING"}));
 
 client.login(token);
