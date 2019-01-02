@@ -10,7 +10,7 @@ client.on("ready", async () => {
 });
 
 client.on("message", async (message) => {
-  const reply = async (c) => await message.channel.send(c);
+  const reply = c => message.channel.send(c);
 
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -22,8 +22,8 @@ client.on("message", async (message) => {
      .setColor("#000000")
      .setAuthor(message.author.tag, message.author.avatarURL) 
      .setDescription(`
-Latency: ${m.createdTimestamp - message.createdTimestamp} 
-Client Latency: ${Math.round(client.ping)}
+Latency: ${m.createdTimestamp - message.createdTimestamp} **MS**
+Client Latency: ${Math.round(client.ping)} **MS**
       `) 
       .setTimestamp();
     await m.edit(embed);
