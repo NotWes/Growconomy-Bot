@@ -18,9 +18,9 @@ Install the required packages via Terminal (Mac) or Command Prompt (Win)
 `npm install discord.js`
 
 # Contribution
-Fork this repository, commmit what you wants to change then make a pull request. 
+It's super easy all you need is to fork THIS repository, commit what you want to change, then make a pull request. 
 
-Pull request should be like example below:
+Pull request should be like the example below:
 
 ## Pull Request Examples
 
@@ -33,3 +33,4 @@ Pull request should be like example below:
 
 ## Others
 [Any other details such as extra packages, other messages goes in here.]
+(edited)
