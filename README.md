@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/forks/NotWes/Growconomy-Bot.svg?style=flat-square)
 ![](https://img.shields.io/github/stars/NotWes/Growconomy-Bot.svg?style=flat-square)
 
-Growconomy's Discord Bot is now OPEN SOURCED! Feel free to contribute to enhance our features.
+Growconomy's Discord Bot is now OPEN SOURCE! Feel free to contribute to enhance our features.
 
 # Requirments
 * Node v8.0.0 or higher
