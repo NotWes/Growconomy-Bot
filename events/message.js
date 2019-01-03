@@ -27,7 +27,7 @@ module.exports.run = async (client, message) => {
   try {
     cmd.run(client, message, args, reply);
   } catch (e) {
-    console.log("Error While Running Command " + ${cmd.help.name} + ":" + e);
+    console.log("Error While Running Command " + cmd.help.name + ":" + e);
     reply(`Couldn't run the command because \`${e}\``);
   }
 }
