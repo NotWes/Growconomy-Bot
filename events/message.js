@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const mongoose = require("mongoose");
 const uCooldown = new Set();
 const fs = require("fs");
 const { prefix } = require("../config.js");
