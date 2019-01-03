@@ -1,9 +1,10 @@
 <h1>The Growconomy Discord Bot</h1>
 
-![](https://img.shields.io/github/license/NotWes/Growconomy-Bot.svg?style=flat-square)
-![](https://img.shields.io/github/issues/NotWes/Growconomy-Bot.svg?style=flat-square)
-![](https://img.shields.io/github/forks/NotWes/Growconomy-Bot.svg?style=flat-square)
-![](https://img.shields.io/github/stars/NotWes/Growconomy-Bot.svg?style=flat-square)
+[![](https://img.shields.io/travis/com/NotWes/Growconomy-Bot.svg?style=flat-square)](https://travis-ci.com/NotWes/Growconomy-Bot)
+[![](https://img.shields.io/github/license/NotWes/Growconomy-Bot.svg?style=flat-square)](https://github.com/NotWes/Growconomy-Bot/blob/master/LICENCE)
+[![](https://img.shields.io/github/issues/NotWes/Growconomy-Bot.svg?style=flat-square)](https://github.com/NotWes/Growconomy-Bot/issues)
+[![](https://img.shields.io/github/forks/NotWes/Growconomy-Bot.svg?style=flat-square)](https://github.com/NotWes/Growconomy-Bot/network/members)
+[![](https://img.shields.io/github/stars/NotWes/Growconomy-Bot.svg?style=flat-square)](https://github.com/NotWes/Growconomy-Bot/stargazers)
 
 Growconomy's Discord Bot is now OPEN SOURCE! Feel free to contribute to enhance our features.
 
