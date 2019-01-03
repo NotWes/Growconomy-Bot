@@ -3,7 +3,7 @@ const { RichEmbed } = require("discord.js");
 module.exports.run = async (client, message, args, reply) => {
   const m = await reply("Gathering Data...");
   
-  const pingEmbed = new Discord.RichEmbed()
+  const pingEmbed = new RichEmbed()
     .setTitle("PONG!")
     .setAuthor(message.author.tag, message.author.displayAvatarUrl)
     .setColor("#36393E")
