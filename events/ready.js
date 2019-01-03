@@ -1,3 +1,5 @@
+const { prefix} = require("../config.js");
+
 module.exports.run = async (client) => {
   await client.user.setActivity(`${client.guilds.size} servers | ${prefix}help`, { type: "WATCHING"});
   await client.user.setStatus("online");
