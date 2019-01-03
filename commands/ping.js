@@ -12,7 +12,8 @@ module.exports.run = async (client, message, args, reply) => {
 Latency: ${m.createdTimestamp - message.createdTimestamp} **MS**
 API Latency: ${Math.round(client.ping)} **MS**
 `)
-  
+ .setTimestamp();
+  m.edit(pingEmbed);
 };
 
 module.exports.help = {
