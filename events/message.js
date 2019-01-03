@@ -19,13 +19,12 @@ module.exports.run = async (client, message) => {
   const command = client.commands.get(cmd.slice(prefix.length));
   if(!command) return;
 
-  if (uCooldown.has(message.author.id)) return message.channel.send(`👎 Slow it dude. You have to wait a few before using ${cmd.help.name}`);
+  if (uCooldown.has(message.author.id)) return message.channel.send(`👎 Slow it dude. You have to wait a few before using ${command.help.name}`);
   uCooldown.add(message.author.id);
 
   try {
     comamnd.run(client, message, args, reply);
   } catch (e) {
-    console.log("Error While Running Command " + cmd.help.name + ":" + e);
     reply(`Couldn't run the command because \`${e}\``);
   }
 }
