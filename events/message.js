@@ -5,7 +5,6 @@ const { prefix } = require("../config.js");
 
 module.exports.run = async (client, message) => {
   const reply = c => message.channel.send(c);
-  client.msgs.push(message.content);
   if(message.author.bot) return;
 
   if (message.isMentioned(client.user))
