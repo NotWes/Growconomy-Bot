@@ -9,6 +9,7 @@
   "author": "",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "watson-developer-cloud": "^3.15.0"
   }
 }
